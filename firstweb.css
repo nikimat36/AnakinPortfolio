@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+/*v patičce font
+font-family: 'Abril Fatface', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+
+html,body {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    width: 90%;
+}
+
+.profile {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    height: 80%;
+    width: 40%;
+    background-image: url("anakin.png"); 
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;          
+}
+
+.main {
+    position: absolute;
+    top: 20%;
+    right: 0;
+    height: 80%;
+    width: 60%;
+    background-color: white; 
+    margin: 0;     
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    height: 20%;
+    width: 100%;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+a {
+    flex-grow: 1;
+    height: 100%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 630%;
+    text-decoration: none;
+    color: white;
+}
+
+.box {
+    height: 100%;
+}
+
+a:hover {
+    background-color: grey;
+    font-size: 27px;
+    line-height: 570%;
+}
+
+.intro {
+    position: fixed;
+    bottom: 80px;
+    left: 15%;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 100px;
+    /*font-family: 'Merriweather', serif;*/
+    font-family: 'Abril Fatface', cursive;
+}
+
+.intro h2 {
+    font-size: 80px;
+    margin: 0;
+}
+
+p, ul {
+    padding: 50px;
+}
+
+li {
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 950px) {
+    .intro {
+        font-size: 30px;
+    }
+
+    .intro h2 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .main {
+        height: 50%;
+        width: 100%;
+        top: 50%;
+    }
+
+    .profile {
+        height: 30%;
+        width: 100%;
+    }
+
+    .intro {
+        position: absolute;
+        bottom: 50px;
+        font-size: 20px;
+        line-height: 50px;
+    }
+
+    .intro h2 {
+        font-size: 30px;
+    }
+
+    p, ul {
+        padding: 20px;
+        margin-left: 50px;
+    }
+}
+/*==================== OTHER PAGES =============== */
+.body2 {
+    position: relative;
+    margin: 0 auto;
+    width: 60%;
+    height: 80%;
+    top: 20%;
+    padding: 0;
+}
+
+.body2 h2, .body2 h3, .body2 h4, .body2 p {
+    padding: 0px 0px;
+}
+
+.training-body{
+    padding-bottom: 20px;
+}
+
+.body2 h4 {
+    font-style:italic; 
+    font-weight: bold; 
+    margin: 0 auto;
+}
+
+.body2 h2,.body2 h3 {
+    margin-top: 0px;
+    padding-top: 30px;
+}
+
+.body2 ul {
+    padding: 0 30px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+    background-color: rgb(43, 42, 42);
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    line-height: 200%;
+}
+
+.quotes {
+    position: absolute;
+    font-size: 100px;
+    line-height:0%;
+    top: 50px;
+    left: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    border: 1px solid black;
+    background-color: black;
+    margin: 20px 0;
+}
+
+.interests {
+      margin: 20px 0px; 
+      margin-bottom: 100px; 
+}
+
+@media screen and (max-width: 950px) {
+    .body2 {
+        width: 80%;
+    }
+
+    .footer {
+        font-size: 30px;
+        line-height: 150%;
+    }
+
+    .body2 ul {
+        margin: 0 20px;
+    }
+
+    .body2 h2,.body2 h3 {
+        margin-top: 0px;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .body2 {
+        width: 90%;
+    }
+
+    .body2 p{
+        position: relative;
+        width: 80%;
+        margin: auto;
+        padding: 5px 5px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .body2 h2 {
+        position: relative;
+        width: 80%;
+        margin: auto;
+        padding-left: 15px;
+        font-size: 18px;
+        padding-bottom: 2px;
+        text-align: center;
+    }
+
+    .body2 h3, .body2 h4 {
+        position: relative;
+        width: 80%;
+        margin: auto;
+        padding: 5px 5px;
+        font-size: 17px;
+    }
+
+    .footer p {
+        font-size: 20px;
+        line-height: 200%;       
+    }
+}
+
+
+

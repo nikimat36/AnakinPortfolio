@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+/*v patičce font
+font-family: 'Abril Fatface', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+
+html, body {
+    position: relative;
+    height: 100%;
+    margin: auto;
+}
+
+body {
+    width: 80%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/*=========== HEADER ============ */
+.profile {
+    height: 30%;
+    width: 100%;
+    background-image: url("anakin.png");
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+.intro {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    padding: 80px 0 0 200px;
+}
+
+.intro h2 {
+    margin: 0;
+}
+/*=============== MAIN, FOOTER ==============*/
+.main, .footer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*=========== MAIN ============ */
+.main {
+    height: 50%;
+}
+
+.main p, li {
+    margin: 0;
+    padding: 30px 10px 0px 20px;
+}
+
+/*=========== FOOTER ============ */
+.footer {
+    height: 20%;
+    background-color: rgb(36, 36, 36);
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+}
+
+.footer p {
+    padding: 0;
+    margin: 0;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    height: 33%;
+}
+
+.quotes {
+    position: absolute;
+    padding: 0;
+    margin: 0; 
+    font-size: 100px;
+}
+
+
+/*================ SCREEN MAX 950 ================*/
+@media screen and (max-width: 950px) {
+    .main {
+    }
+
+    .intro {
+        font-size: 30px;
+        padding: 60px 0 0 100px;        
+    }
+
+    .footer p {
+        padding: 30px 10px 0 10px;
+        font-size: 30px;     
+    }
+}
+
+
+
+/*================ SCREEN MAX 650 ================*/
+@media screen and (max-width: 650px) {
+
+}
